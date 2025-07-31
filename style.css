@@ -29,10 +29,10 @@ img {
   cursor: pointer;
 }
 #candle {
-  width: 220px; /* adjust size as you wish */
+  width: 350px; /* adjust size as you wish */
   height: auto;
   cursor: pointer;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 #message {
   display: none;
