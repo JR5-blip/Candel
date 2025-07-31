@@ -7,7 +7,7 @@ body {
   padding: 30px 20px;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center; /* <- change this from 'flex-start' to 'center' */
   min-height: 100vh;
 }
 
