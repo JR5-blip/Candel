@@ -32,14 +32,13 @@ img {
   width: 350px; /* adjust size as you wish */
   height: auto;
   cursor: pointer;
-  margin-bottom: 20px;
 }
 #message {
   display: none;
   font-size: 1.2em;
   line-height: 1.6;
   max-width: 90%;
-  margin-top: 20px;
+  margin-top: 35px;
 }
 p {
   margin-top: 20px;
