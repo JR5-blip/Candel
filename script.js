@@ -1,7 +1,7 @@
 
 let candle = document.getElementById('candle');
 let message = document.getElementById('message');
-let clickCount = 0;
+window.onload = function () {
 const candle = document.getElementById('candle');
 let clickCount = 0;
 
@@ -25,3 +25,4 @@ candle.addEventListener('click', () => {
     message.classList.remove('hidden');
   }
 });
+      }
