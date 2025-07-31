@@ -2,7 +2,12 @@
 let candle = document.getElementById('candle');
 let message = document.getElementById('message');
 let clickCount = 0;
+const candle = document.getElementById('candle');
+let clickCount = 0;
 
+setTimeout(() => {
+  candle.src = 'candle_off.png';
+}, 2000); // ⏳ Turns off after 2 seconds
 candle.addEventListener('click', () => {
   clickCount++;
   if (clickCount === 1) {
