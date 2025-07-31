@@ -24,8 +24,8 @@ candle.addEventListener('click', () => {
       candle.src = 'candle_off.png';
     }, 2000);
   } else if (clickCount === 3) {
-    candle.src = 'candle_on.png';
-    message.classList.remove('hidden');
+    candle.style.display = 'none';
+    message.style.display = 'block';
   }
 });
       }
