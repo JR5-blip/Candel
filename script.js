@@ -8,8 +8,10 @@ let clickCount = 0;
 
 setTimeout(() => {
   candle.src = 'candle_off.png';
-  prompt.style.display = 'block';
 }, 2000); // ⏳ Turns off after 2 seconds
+  setTimeout(() => {
+  prompt.style.display = 'block';
+}, 3000);
 candle.addEventListener('click', () => {
   clickCount++;
   if (clickCount === 1) {
